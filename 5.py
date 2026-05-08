@@ -6,3 +6,4 @@ for i in range(n):
     marks=int(input("enter the student marks: "))
     student.setdefault(name,marks)
 print(student)
+print(max(student,key=student.get))
